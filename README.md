@@ -10,6 +10,7 @@ To check for the current file permissions, I used ls - la
 
 Here is the current file structure of the /home/researcher2/projects directory and the permissions of the files and subdirectories it contains.
 
+<img width="682" height="197" alt="currentfilepermissions" src="https://github.com/user-attachments/assets/776c7ae5-b844-4bfb-a6b4-cdbcd6a8f928" />
 
 
 Describing the permissions string
