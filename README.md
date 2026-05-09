@@ -1,17 +1,10 @@
-# google-cybersecurity-cert-changing-linux-file-permissions
-As a cybersecurity analyst working on the Google Cybersecurity Professional Certificate, one of the projects I was tasked with was to update file permissions for certain files and directories in a mock organization.
+# Changing File permissions in Linux
 
-
-Connor Tarpey
-5/9/2026
-Changing File permissions in Linux
-Project description
 As a cybersecurity analyst working on the Google Cybersecurity Professional Certificate, one of the projects I was tasked with was to update file permissions for certain files and directories in a mock organization.
 
 The current permissions set up did not reflect the correct level of authorization that should be given. By checking and updating these permissions, I will help keep the organization secure.
 
-
-Check file and directory details
+## Check file and directory details
 
 To check for the current file permissions, I used ls - la
 
