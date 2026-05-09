@@ -36,39 +36,39 @@ permissions for the user, group, and other owners, respectively. When one of the
 Now, looking in the /home/researcher2/projects directory, there are five files with the following
 names and permissions:
 
-
+(
 ● project_k.txt
 ○ User = read, write,
 ○ Group = read, write
 ○ Other = read, write
--
+
 ● project_m.txt
 ○ User = read, write
 ○ Group = read
 ○ Other = none
--
+
 ● project_r.txt
 ○ User= read, write
 ○ Group = read, write
 ○ Other = read
--
+
 ● project_t.txt
 ○ User = read, write
 ○ Group = read, write
 ○ Other = read
--
+
 There is one hidden file named .project_x.txt
 ● .project_x.txt
 ○ User = read, write
 ○ Group = write
 ○ Other = none
--
+
 There is also one subdirectory inside the projects directory named drafts. The permissions
 on drafts are:
 ● User = read, write, execute
 ● Group = execute
 ● Other = none
--
+)
 
 ## Changing file permissions
 It was determined by the organization that the other owner type shouldn't have write access to any of their files. To comply with this, I referred to the file permissions that I previously returned and determined that project_k.txt must have the write access removed for other.
