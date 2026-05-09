@@ -12,9 +12,7 @@ Here is the current file structure of the /home/researcher2/projects directory a
 
 <img width="682" height="197" alt="currentfilepermissions" src="https://github.com/user-attachments/assets/776c7ae5-b844-4bfb-a6b4-cdbcd6a8f928" />
 
-
-Describing the permissions string
-
+## Describing the permissions string
 
 In Linux, there are three permissions:
 - read (r)
@@ -71,20 +69,19 @@ Changing file permissions
 It was determined by the organization that the other owner type shouldn't have write access to any of their files. To comply with this, I referred to the file permissions that I previously returned and determined that project_k.txt must have the write access removed for other.
 
 chmod o-w project_k.txt
+<img width="689" height="387" alt="changingfilepermissions" src="https://github.com/user-attachments/assets/b5eaeb9e-70d0-44bf-ada2-d461ce682d1d" />
 
+## Changing file permissions on a hidden file
 
-
-
-
-Changing file permissions on a hidden file
 The organization recently archived project_x.txt. They do not want anyone to have write access to this project, but the user and group should have read access. After looking at the current permissions I saw that the user had read and write permissions, and the group had write permissions, other had no permissions. 
-
 
 I then removed write permissions from the user and group, and added read permissions to the group.
 
 chmod u-w,g-w,g+r .project_x.txt 
+<img width="660" height="426" alt="changinghiddenfilepermissions" src="https://github.com/user-attachments/assets/722db7d1-3a61-4b95-bf18-b3b17985e786" />
 
-Changing directory permissions
+
+## Changing directory permissions
 The organization determined it only wants the researcher2 user to have access to the drafts directory and its contents. This means that no one other than researcher2 should have execute
 Permissions.
 Again, first I checked the current permissions with ls -la
@@ -92,6 +89,7 @@ Again, first I checked the current permissions with ls -la
 I saw that in the drafts directory, the user had the correct read write and execute permssions, but the group also had execute permissions. To mitigate this, I removed the execute permissions for the group.
 
 chmod g-x drafts
+<img width="685" height="398" alt="changingdirpermissions" src="https://github.com/user-attachments/assets/dd965c68-a7ab-4032-acca-283ff07c8a63" />
 
 Summary
 I changed multiple permissions to match the level of authorization the organization wanted for
