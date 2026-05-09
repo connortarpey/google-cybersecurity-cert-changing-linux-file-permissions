@@ -61,7 +61,7 @@ There is one hidden file named .project_x.txt
 ○ Group = write
 ○ Other = none
 
-There is also one subdirectory inside the projects directory named drafts
+There is also one subdirectory named **drafts**
 User = read, write, execute
 Group = execute
 Other = none
