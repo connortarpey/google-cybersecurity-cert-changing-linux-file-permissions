@@ -36,27 +36,27 @@ permissions for the user, group, and other owners, respectively. When one of the
 Now, looking in the /home/researcher2/projects directory, there are five files with the following
 names and permissions:
 
-project_k.txt
-○ User = read, write,
+**project_k.txt
+**○ User = read, write,
 ○ Group = read, write
 ○ Other = read, write
 
-project_m.txt
-○ User = read, write
+**project_m.txt
+**○ User = read, write
 ○ Group = read
 ○ Other = none
 
-project_r.txt
-○ User= read, write
+**project_r.txt
+**○ User= read, write
 ○ Group = read, write
 ○ Other = read
 
-project_t.txt
-○ User = read, write
+**project_t.txt
+**○ User = read, write
 ○ Group = read, write
 ○ Other = read
 
-There is one hidden file named .project_x.txt
+There is one hidden file named **.project_x.txt**
 ○ User = read, write
 ○ Group = write
 ○ Other = none
