@@ -57,13 +57,11 @@ project_t.txt
 ○ Other = read
 
 There is one hidden file named .project_x.txt
-.project_x.txt
 ○ User = read, write
 ○ Group = write
 ○ Other = none
 
-There is also one subdirectory inside the projects directory named drafts. The permissions
-on drafts are:
+There is also one subdirectory inside the projects directory named drafts
 User = read, write, execute
 Group = execute
 Other = none
